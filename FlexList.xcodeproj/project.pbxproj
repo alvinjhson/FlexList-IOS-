@@ -104,6 +104,10 @@
 		524338ED2C1EF8AF00AF7739 /* FlexList */ = {
 			isa = PBXGroup;
 			children = (
+				52D8CAEC2C2023F100A4EDD1 /* Components */,
+				52D8CAEB2C2023EC00A4EDD1 /* Models */,
+				52D8CAEE2C20247000A4EDD1 /* Views */,
+				52D8CAED2C2023F600A4EDD1 /* ViewModels */,
 				524338EE2C1EF8AF00AF7739 /* FlexListApp.swift */,
 				524338F02C1EF8AF00AF7739 /* ContentView.swift */,
 				524338F22C1EF8B000AF7739 /* Assets.xcassets */,
@@ -135,6 +139,34 @@
 				5243390B2C1EF8B100AF7739 /* FlexListUITestsLaunchTests.swift */,
 			);
 			path = FlexListUITests;
+			sourceTree = "<group>";
+		};
+		52D8CAEB2C2023EC00A4EDD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52D8CAEC2C2023F100A4EDD1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52D8CAED2C2023F600A4EDD1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52D8CAEE2C20247000A4EDD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
