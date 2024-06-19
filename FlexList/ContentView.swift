@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-     
+        @State var signedIn = false
+        var body: some View {
+            if !signedIn{
+                SignInView(signedIn: $signedIn)
+    
+            }else{
+                HomeView()
+            }
+    
+    
         }
-        .padding()
-    }
 }
 
 #Preview {
