@@ -19,6 +19,11 @@
 		5243391E2C1EFBB500AF7739 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5243391D2C1EFBB500AF7739 /* FirebaseAuth */; };
 		524339202C1EFBB500AF7739 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5243391F2C1EFBB500AF7739 /* FirebaseFirestore */; };
 		524339222C1EFBB500AF7739 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 524339212C1EFBB500AF7739 /* FirebaseFirestoreSwift */; };
+		52A6B7B72C60CD3100CCB013 /* TopRoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B7B62C60CD3100CCB013 /* TopRoundedRectangle.swift */; };
+		52D8CAF42C202CBE00A4EDD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52D8CAF32C202CBE00A4EDD1 /* GoogleService-Info.plist */; };
+		52D8CAF62C23015D00A4EDD1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8CAF52C23015D00A4EDD1 /* SignInView.swift */; };
+		52D8CAF82C2309F100A4EDD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8CAF72C2309F100A4EDD1 /* HomeView.swift */; };
+		52D8CAFA2C25800800A4EDD1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8CAF92C25800800A4EDD1 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		524339052C1EF8B100AF7739 /* FlexListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524339092C1EF8B100AF7739 /* FlexListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexListUITests.swift; sourceTree = "<group>"; };
 		5243390B2C1EF8B100AF7739 /* FlexListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52A6B7B62C60CD3100CCB013 /* TopRoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoundedRectangle.swift; sourceTree = "<group>"; };
+		52D8CAF32C202CBE00A4EDD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52D8CAF52C23015D00A4EDD1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		52D8CAF72C2309F100A4EDD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52D8CAF92C25800800A4EDD1 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 		524338E22C1EF8AF00AF7739 = {
 			isa = PBXGroup;
 			children = (
+				52D8CAF32C202CBE00A4EDD1 /* GoogleService-Info.plist */,
 				524338ED2C1EF8AF00AF7739 /* FlexList */,
 				524338FE2C1EF8B100AF7739 /* FlexListTests */,
 				524339082C1EF8B100AF7739 /* FlexListUITests */,
@@ -151,6 +162,8 @@
 		52D8CAEC2C2023F100A4EDD1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				52D8CAF92C25800800A4EDD1 /* UIColor.swift */,
+				52A6B7B62C60CD3100CCB013 /* TopRoundedRectangle.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -165,6 +178,8 @@
 		52D8CAEE2C20247000A4EDD1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				52D8CAF52C23015D00A4EDD1 /* SignInView.swift */,
+				52D8CAF72C2309F100A4EDD1 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D8CAF42C202CBE00A4EDD1 /* GoogleService-Info.plist in Resources */,
 				524338F62C1EF8B000AF7739 /* Preview Assets.xcassets in Resources */,
 				524338F32C1EF8B000AF7739 /* Assets.xcassets in Resources */,
 			);
@@ -309,8 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D8CAF62C23015D00A4EDD1 /* SignInView.swift in Sources */,
+				52D8CAF82C2309F100A4EDD1 /* HomeView.swift in Sources */,
 				524338F12C1EF8AF00AF7739 /* ContentView.swift in Sources */,
+				52A6B7B72C60CD3100CCB013 /* TopRoundedRectangle.swift in Sources */,
 				524338EF2C1EF8AF00AF7739 /* FlexListApp.swift in Sources */,
+				52D8CAFA2C25800800A4EDD1 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
